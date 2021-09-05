@@ -25,7 +25,8 @@ After installing Miktex , I had to remove the following line for the AltaCv temp
 ```
  %\includexmp{\xmp@template}%
 ```
- This file is located at C:\Users\\***YourUser***\AppData\Local\Programs\MiKTeX\tex\latex\pdfx\pdfx.sty
+This file is located within your MiKTeX installation after installing pdfx. Mine was located at:
+C:\Users\\***User***\AppData\Local\Programs\MiKTeX\tex\latex\pdfx\pdfx.sty
 
 ## Latex introduction
 
