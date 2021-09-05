@@ -19,20 +19,20 @@ Within MikTex, install all the packages included in the
 - Tex Studio.
 
 *Notes and fixes:*
+
 After installing Miktex , I had to remove the following line for the AltaCv template to work.
 
 ```
  %\includexmp{\xmp@template}%
 ```
-
-At C:\Users\\***YourUser***\AppData\Local\Programs\MiKTeX\tex\latex\pdfx\pdfx.sty
+ This file is located at C:\Users\\***YourUser***\AppData\Local\Programs\MiKTeX\tex\latex\pdfx\pdfx.sty
 
 ## Latex introduction
 
 For a introduction on how to use LaTex sintax and get started with it, here you may find some documentation:
 
 - [Latex intro](https://www.reed.edu/cis/help/LaTeX/intro.html)
-- [Latex cheatsheet] (https://wch.github.io/latexsheet/latexsheet-a4.pdf)  
+- [Latex cheatsheet](https://wch.github.io/latexsheet/latexsheet-a4.pdf)  
 
 
 ## Usage
