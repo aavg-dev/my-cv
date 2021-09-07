@@ -13,7 +13,7 @@
 %%%%%%%%%%%%%%%%
 
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
-\documentclass[10pt,a4paper,normalphoto]{altacv}
+\documentclass[10pt,a4paper,normalphoto,hidelinks]{altacv}
 
 %\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 
@@ -25,6 +25,8 @@
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
 
 
 % Change the font if you want to, depending on whether
@@ -90,8 +92,13 @@
 	\phone{+34 626 88 98 46}
   %\mailaddress{Calle Ginzo de Limia 26}
   \location{Madrid, España}
-  \linkedin{www.linkedin.com/in/alejandro-vega-gómez-137585b5}
-  \github{github.com/} % I'm just making this up though.
+  
+  \linkedin{}
+  \url{https://www.linkedin.com/in/alejandrovegagomez/}
+  \quad  
+  \github{ } % I'm just making this up though.
+  \url{https://github.com/aavg-dev}
+  % \gitlab{your_id}
 %   \orcid{0000-0000-0000-0000} % Obviously making this up too.
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
@@ -153,17 +160,25 @@
 % \divider
 \cvsection{Cursos y eventos}
 
-\cvevent{Linux Drivers}{Timesys} {} {}
+\cvevent{Linux Drivers }{} {} {TimeSys, Pensilvania}
 
-\cvevent{Cursos en Agilidad}{Coursera.org} {} {}
+
+\cvevent{Interactive programming in Python 
+}{}{}{Rice University, Houston}
+
+
+\cvevent{Metodologías Ágiles}{} {} {}
 \begin{itemize}
-\item Agile Meets Design Thinking
-\item Managing an Agile Team
-\item Running Product Design Sprints
-\item Testing with Agile 
+\item Agile Meets Design Thinking [University of Virginia]
+\item Managing an Agile Team [University of Virginia]
+\item Running Product Design Sprints [University of Virginia]
+\item Testing with Agile  [University of Virginia]
+\item Product Owner [233 Grados de TI]
+
 \end{itemize}
 
-\cvevent{Hablar en público - Ambassador Program }{Habilitips}{}{}
+\cvevent{Oratoria y cómo hablar en público }{}{}{Habilitips, Madrid}
+
 
 
 % use ONLY \newpage if you want to force a page break for
@@ -205,11 +220,12 @@
 
 \cvsection{Soft Skills}
 
+\cvtag{Pensamiento crítico}
+\cvtag{Adaptación}
+\cvtag{Capacidad aprendizaje}
+\cvtag{Empático}
 \cvtag{Motivación personal}
 \cvtag{Activo y resolutivo}
-\cvtag{Trabajador}
-\cvtag{Empático}
-\cvtag{Adaptación y aprendizaje rápidos}
 
 
 \cvsection{Hard skills}
@@ -238,10 +254,10 @@
 \cvtag{Metodologías ágiles}
 \cvtag{UX}
 \cvtag{UI}
-\cvtag{Interacción con cliente}
-\cvtag{Gestión de Producto}
+\cvtag{Producto Software}
+\cvtag{Energías renovables}
+\cvtag{Vehículo autónomo}
 \cvtag{Voluntariado}
-
 
 \cvsection{Idiomas}
 
