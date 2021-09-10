@@ -1,6 +1,6 @@
 # my-cv 
 
-my-cv is a repository holding [my Curriculum Vitae](https://github.com/aavg-dev/my-cv/blob/main/my-cv-aavg-dev.pdf).  
+my-cv is a repository holding my Curriculum Vitae: [ES version](https://github.com/aavg-dev/my-cv/blob/main/my-cv-aavg-dev.pdf), [EN version](https://github.com/aavg-dev/my-cv/blob/main/my-cv-aavg-dev_en.pdf).   
 
 
 ## Installation for Windows
